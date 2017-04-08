@@ -3,7 +3,7 @@ function(){
 
   var chai = require('jasmine'); 
 
-var getPrimes = require('../app/app.js')
+var getPrimes = require('../src/app.js')
 
   describe("Test cases for getPrimes function", function() {
       it("should return 'negative integers can not be prime' for negative integers", function() {
