@@ -1,9 +1,9 @@
 //The person function is the parent for all other objects
-//Methods and atributes are encapsulated in this object
+//Methods and attributes are encapsulated in this object
 function Person(firstname,surname,idNumber){
 	this.firstname = firstname;
 	this.surname = surname;
-	this.idNumber = idNumber
+	this.idNumber = idNumber;
 }
 
 Person.prototype = {
